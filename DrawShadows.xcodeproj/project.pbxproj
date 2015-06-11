@@ -13,6 +13,7 @@
 		F5E26A961B1B6469001A1CBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E26A951B1B6469001A1CBA /* Images.xcassets */; };
 		F5E26A991B1B6469001A1CBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E26A971B1B6469001A1CBA /* LaunchScreen.xib */; };
 		F5E26AA51B1B6469001A1CBA /* DrawShadowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E26AA41B1B6469001A1CBA /* DrawShadowsTests.swift */; };
+		F5F1D58E1B1B665E00C50B07 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D58D1B1B665E00C50B07 /* CustomShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F5E26A9E1B1B6469001A1CBA /* DrawShadowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawShadowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E26AA31B1B6469001A1CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E26AA41B1B6469001A1CBA /* DrawShadowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShadowsTests.swift; sourceTree = "<group>"; };
+		F5F1D58D1B1B665E00C50B07 /* CustomShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F5E26A8E1B1B6469001A1CBA /* AppDelegate.swift */,
 				F5E26A901B1B6469001A1CBA /* ViewController.swift */,
 				F5E26A921B1B6469001A1CBA /* Main.storyboard */,
+				F5F1D58D1B1B665E00C50B07 /* CustomShapes.swift */,
 				F5E26A951B1B6469001A1CBA /* Images.xcassets */,
 				F5E26A971B1B6469001A1CBA /* LaunchScreen.xib */,
 				F5E26A8C1B1B6469001A1CBA /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F1D58E1B1B665E00C50B07 /* CustomShapes.swift in Sources */,
 				F5E26A911B1B6469001A1CBA /* ViewController.swift in Sources */,
 				F5E26A8F1B1B6469001A1CBA /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				F5E26AAA1B1B6469001A1CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5E26AAB1B1B6469001A1CBA /* Build configuration list for PBXNativeTarget "DrawShadowsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				F5E26AAD1B1B6469001A1CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
